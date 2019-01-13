@@ -2,7 +2,7 @@
 A data science project to learn the NLTK package by exploring insights from scripts of the show The Office, one of my all time favourites
 
 ### Data Source 
-Data was downloaded from the following source. It contains lines of all scenes in 9 seasons and 201 episodes in total
+Data was downloaded from the following source. It contains lines from all scenes across 9 seasons and 201 episodes in total
 https://www.reddit.com/r/datasets/comments/6yt3og/every_line_from_every_episode_of_the_office_us/
 
 ### Data Preparation
@@ -11,7 +11,7 @@ Data pre-processing involved the following
 * Stemming using Snowball stemmer
 * Removing Stopwords
   * Using English dictionary stopwords in NLTK
-  * Creating an additional list of stopwords as all the words that occur in more than n% of episodes for certain analysis
+  * Creating an additional list of stopwords as all the words that occur in more than 50% of episodes. This was needed for certain analysis
 
 ### What is the Airtime of key characters?
 Airtime is measured by proportion of number of words spoken by each of the characters in each season. Below graph displays the top 5 characters by airtime proportion in each season
@@ -25,7 +25,7 @@ Every character in any series have some words that they speak more often than ot
 
 ![Top_words](/results/top_words_character.png)
 
-This pretty much reflects the story line for each of these characters. e.g. Angela's top words are Dwight- her love interest and later her husband, Kevin and Oscar - her team mates on the accounting team, senator- whom she first married.
+This pretty much reflects the story line for each of these characters. e.g. Angela's top words are Dwight- her love interest and later her husband, Kevin and Oscar - her team mates on the accounting team and, senator- whom she first married.
 
 ### How are the characters speaking their lines? (Sentiment Analysis)
 Sentiment analysis was done on each line to identify if it was positive, negative, neutral. Below chart displays the proportion of lines in each sentiment for all key characters
