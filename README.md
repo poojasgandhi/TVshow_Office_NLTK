@@ -32,31 +32,31 @@ Sentiment analysis was done on each line to identify if it was positive, negativ
 
 ![Sentiment](/results/sentiment.png)
 
-It is phenomenal that almost 100% of Michael's lines were positive. No wonder inspite of his constant bickering, he never really comes across as annoying. It is also not surprising that the grumpy and disgruntled Stanley has almost the highlest negative sentiment lines. He comes closed second to Meredith, whose alcohol problem and pathetic work performance might be resulting into the negative sentiment.
+It is phenomenal that almost 100% of Michael's lines were positive. No wonder inspite of his constant bickering, he never really comes across as annoying. It is also not surprising that the grumpy and disgruntled Stanley has almost the highlest negative sentiment lines. He comes close second to Meredith, whose alcohol problem and pathetic work performance might be resulting into her high negative sentiment.
 
 ### Which characters co-occur the most in scenes?
-Identify the top 2 characters in each scene for ease of plotting. Below heatmap displays number of scenes in which the key characters occur together.
+Identified the top 2 characters in each scene for ease of plotting. Below heatmap displays number of scenes in which the key characters occur together.
 
 ![Co-occurence](/results/co-occurence.png)
 
 It actually comes as a surprise that Michael and Dwight have the most scenes together. I always thought it was Jim and Dwight or Jim and Pam. 
 
 ### What are the key topics underlying the lines of characters across all episodes (Topic Modeling using LDA)
-Below table displays the key words in top 5 topics for the key characters. Note that this is not the full table with all key characters
+This was done to understand the key abstract topics for each character. LDA algorithm gives the top words in each topic that ideally should describe that topic. Below table displays the key words in top 5 topics for the key characters. Note that this is not the full table with all key characters
 
 ![Topic-modeling](/results/topic_modelling.png)
 
-Topics aren't very clear for all the characters, but for some they seem meaningful. e.g. Kelly - Her 1st topic is around the bridesmaid dress that she was forced to return, 2nd on her passion for fashion and romance, 3rd and 5th topics about her INdian boyfriend Ravi whom she dumped. There are some clear trends for Holly too. Her 1st topic is about the time when Darryl and Michael drive her back to her home in a truck, 2nd topic seems to be about Todd Packer, Michael's friend whom Holly wasnt too fond of, 3rd topic is definitely about the time when Holly tries to conduct Ethics seminar, 4th seems to be about the time when Holly shares news of her being engaged to Michael to her parents but them seem mentally disillusioned, 5th about the time when she has tickets to some show she want to go to with Michael but Michael doesnt get the hint
+Topics aren't very clear for all the characters, but for some they seem meaningful. e.g. Kelly - Her 1st topic is around the bridesmaid dress that she was forced to return, 2nd on her passion for fashion and romance, 3rd and 5th topics about her Indian boyfriend Ravi whom she dumped. There are some clear trends for Holly too. Her 1st topic is about the time when Darryl and Michael drive her back to her home in a truck, 2nd topic seems to be about Todd Packer, Michael's friend whom Holly wasnt too fond of, 3rd topic is definitely about the time when Holly tries to conduct Ethics seminar, 4th seems to be about the time when Holly shares news of her being engaged to Michael to her parents but them seem mentally disillusioned, 5th about the time when she has tickets to some show she want to go to with Michael but Michael doesnt get the hint
 
 ### Do some characters have bigger lines than the others?
 Boxplot below displays the distribution of line length for each key character. Analysis done on lines across all seasons/episodes
 
 ![Dialogue length](/results/dialogue_length.png)
 
-As expected, Michael, Dwight and Jim have slightly high median length of lines as compared to others. There isn't much difference among the others
+As expected, Michael, Dwight and Jim have slightly high median length of lines as compared to others. There isn't much difference among the others.
 
 ### References
-In addition to the references mentioned in each section in the Notebook, below are some additional references used throughout the project
+In addition to the references mentioned in each section in the Notebook, below are some additional references used throughout the project.
 
 https://python-graph-gallery.com/all-charts/
 
