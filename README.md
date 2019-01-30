@@ -43,7 +43,7 @@ It actually comes as a surprise that Michael and Dwight have the most scenes tog
 
 The network below is another way of looking at the co-occurence. The size of nodes represent total number of scenes for that character, while the width of edge represent the number of scenes in which the characters co-occur
 
-![Co-occurence network] (/results/cooccur_network.png)
+![Co-occurence network](/results/cooccur_network.png)
 
 ### What are the key topics underlying the lines of characters across all episodes (Topic Modeling using LDA)
 This was done to understand the key abstract topics for each character. LDA algorithm gives the top words in each topic that ideally should describe that topic. Below table displays the key words in top 5 topics for the key characters. Note that this is not the full table with all key characters
