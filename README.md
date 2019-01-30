@@ -35,11 +35,15 @@ Sentiment analysis was done on each line to identify if it was positive, negativ
 It is phenomenal that almost 100% of Michael's lines were positive. No wonder inspite of his constant bickering, he never really comes across as annoying. It is also not surprising that the grumpy and disgruntled Stanley has almost the highlest negative sentiment lines. He comes close second to Meredith, whose alcohol problem and pathetic work performance might be resulting into her high negative sentiment.
 
 ### Which characters co-occur the most in scenes?
-Identified the top 2 characters in each scene for ease of plotting. Below heatmap displays number of scenes in which the key characters occur together.
+Below heatmap is a representation of number of scenes in which the key characters occur together.
 
 ![Co-occurence](/results/co-occurence.png)
 
 It actually comes as a surprise that Michael and Dwight have the most scenes together. I always thought it was Jim and Dwight or Jim and Pam. 
+
+The network below is another way of looking at the co-occurence. The size of nodes represent total number of scenes for that character, while the width of edge represent the number of scenes in which the characters co-occur
+
+![Co-occurence network] (/results/cooccur_network.png)
 
 ### What are the key topics underlying the lines of characters across all episodes (Topic Modeling using LDA)
 This was done to understand the key abstract topics for each character. LDA algorithm gives the top words in each topic that ideally should describe that topic. Below table displays the key words in top 5 topics for the key characters. Note that this is not the full table with all key characters
