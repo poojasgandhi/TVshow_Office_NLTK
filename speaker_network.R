@@ -24,6 +24,7 @@ V(g)$size <- nodes$count/80
 plot(g, layout=layout_as_star, main="Star",
         vertex.color = "lightyellow",
         vertex.label.color = "blue",
+        vertex.label.cex = 1.5,
         edge.color = "lightgrey")
 
 #plot(g, layout=layout_on_grid, main="Grid")
